@@ -112,11 +112,7 @@ If you run again this tool, **tool read that file, set options**.
 note) config file place. 
 
 Internal Storage
-- Android
-- data
-- com.cordova.andoukie
-- files
-  config
+- Android - data - com.cordova.andoukie2 - files - **config**
 
 ⑥ status column
 
