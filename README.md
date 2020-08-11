@@ -82,21 +82,43 @@ run this app on Android, and read to QR Code.<br>
 
 operating on Android touch pannel.<br>
 
-![2](https://github.com/yasutakatou/andoukie/blob/pic/2.png)
+![2](https://github.com/yasutakatou/andoukie2/blob/pic/screen.png)
 
-① not delete mode
-
-default this switch is off.<br>
-If some file exists Android, but not exists server, that file delete on .<br>
-**when turn on this switch to not delete**.<br>
-
-② gauge of sync interval
+① gauge of sync interval
 
 this gauge is interval of file syncing.<br>
 **example (60), is sync every 60 seconds.**<br>
 **(0) is not syncing.**<br>
 
-③ status column
+② QR Scan
+
+QR Code reading again.
+
+③ Save as
+
+reset save folder.
+
+④ not delete mode
+
+default this switch is off.<br>
+If some file exists Android, but not exists server, that file delete on .<br>
+**when turn on this switch to not delete**.<br>
+
+⑤ Exit
+
+Exit and save config file.
+If you run again this tool, **tool read that file, set options**.
+
+note) config file place. 
+
+Internal Storage
+- Android
+- data
+- com.cordova.andoukie
+- files
+  config
+
+⑥ status column
 
 This place display sync status or another message.<br>
 
